@@ -153,8 +153,39 @@
 // }
 // console.log(`A man allowed go out with his friends ${allowedDays} in August month`)
 
+const num1=5;
+const num2=0;
+const operator= '%'; 
+let result;
 
+if(isNaN(num1) || isNaN(num2)){
+    console.log("Invalid input");
+}
 
+switch(operator){
+    case '+':
+        result= num1 + num2;
+        break;
+    case '-':
+        result= num1 - num2;
+        break;
+    case '*':
+        result= num1 * num2;
+        break;
+    case '/':
+        if(num2 !=0){
+            result= num1 / num2;
+        }
+        else{
+            console.log("Cannot divide by zero")
+        }
+        break;
+    default:
+        console.log("Invalid operator");
+}
+if(result != undefined){
+    console.log(`Result: ${result}`);
+}
 
 
 
