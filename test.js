@@ -153,41 +153,57 @@
 // }
 // console.log(`A man allowed go out with his friends ${allowedDays} in August month`)
 
-const num1=5;
-const num2=0;
-const operator= '%'; 
-let result;
+// const num1=5;
+// const num2=0;
+// const operator= '%'; 
+// let result;
 
-if(isNaN(num1) || isNaN(num2)){
-    console.log("Invalid input");
-}
+// if(isNaN(num1) || isNaN(num2)){
+//     console.log("Invalid input");
+// }
 
-switch(operator){
-    case '+':
-        result= num1 + num2;
-        break;
-    case '-':
-        result= num1 - num2;
-        break;
-    case '*':
-        result= num1 * num2;
-        break;
-    case '/':
-        if(num2 !=0){
-            result= num1 / num2;
-        }
-        else{
-            console.log("Cannot divide by zero")
-        }
-        break;
-    default:
-        console.log("Invalid operator");
-}
-if(result != undefined){
-    console.log(`Result: ${result}`);
-}
+// switch(operator){
+//     case '+':
+//         result= num1 + num2;
+//         break;
+//     case '-':
+//         result= num1 - num2;
+//         break;
+//     case '*':
+//         result= num1 * num2;
+//         break;
+//     case '/':
+//         if(num2 !=0){
+//             result= num1 / num2;
+//         }
+//         else{
+//             console.log("Cannot divide by zero")
+//         }
+//         break;
+//     default:
+//         console.log("Invalid operator");
+// }
+// if(result != undefined){
+//     console.log(`Result: ${result}`);
+// }
 
+// ARMSTRONG NUMBER:
 
+// const number=1634;
+// const numLength = number.length;
+// let sum =0;
+//  let temp = number;
+// while(temp > 0){
+//     let remainder = temp % 10;
+//     sum += remainder ** numLength;
+//     temp = parseInt(temp/10);
+// }
+// if(sum == number){
+//     console.log(`${number} is a Armstrong number`);
+// }
+// else{
+//     console.log(`${number} is a Armstrong number`);
+// }
 
 
 
